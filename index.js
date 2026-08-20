@@ -222,7 +222,7 @@ async function handleGenCommand(target, user, category, source) {
   const remaining = lines.length;
 
   const itemEmbed = createEmbed({
-    title: 'Item Generated',
+    title: 'Cuenta Generada',
     description: `You received: \`${generatedItem}\`\n\nRemaining stock for \`${category}\`: ${remaining}`,
     icon: '✅',
     color: 0x2ecc71
@@ -242,8 +242,8 @@ async function handleGenCommand(target, user, category, source) {
 
   if (config.dmResults) {
     await sendEmbed(target, createEmbed({
-      title: 'Check Your DMs',
-      description: `Your generated item has been sent to your direct messages.`,
+      title: 'Revisa Tu DMs',
+      description: `Tu cuenta se ha generado revisa tu DM.`,
       icon: '📬',
       color: 0x2ecc71
     }));
