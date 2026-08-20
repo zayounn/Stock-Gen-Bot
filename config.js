@@ -2,9 +2,9 @@ require('dotenv').config();
 
 const config = {
   prefix: '!',
-  embedColor: 0x5865f2,
+  embedColor: 0x6C3483,
   footer: 'Developed by Jacob',
-  activity: 'stock',
+  activity: 'Make It By Jacob',
   ownerIds: ['1092773378101882951'],
   dmResults: true,
   deleteCommandMessages: false,
